@@ -76,7 +76,7 @@ class Student extends Person {
     }
 }
 
-class PM extends Person {
+class PM extends Teacher {
     constructor(PMDesc) {
         super(PMDesc);
         this.gradClassName = PMDesc.gradClassName;
